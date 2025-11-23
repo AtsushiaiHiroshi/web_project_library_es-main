@@ -1,0 +1,158 @@
+.page {
+  min-width: 1100px;
+  max-width: 1600px;
+  margin: auto;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+  background-color: #ffffff;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  min-height: 720px;
+  max-height: 800px;
+  padding: 30px 80px 40px;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.nav {
+  display: flex;
+  margin: 80px 58px;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.nav__logo {
+  height: 80px;
+  width: 58px;
+}
+
+.nav__links {
+  align-items: flex-end;
+  margin: 8px 0 0;
+  display: flex;
+  column-gap: 20px;
+  padding: 0;
+  list-style-type: none;
+}
+
+.nav__link {
+  color: #000000;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.header__content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.header__title {
+  margin: 0;
+  font-size: 62px;
+  line-height: 76px;
+  font-weight: 500;
+  max-width: 635px;
+  margin-top: 128px;
+}
+
+.header__description {
+  margin: 0;
+  font-size: 20px;
+  line-height: 30px;
+  max-width: 515px;
+  margin-top: 32px;
+}
+
+.header__image {
+  max-width: 636px;
+}
+
+.header__footer {
+  margin-top: auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  box-sizing: border-box;
+}
+
+.header__link {
+  color: #2f80ed;
+  text-decoration: none;
+}
+
+.header__address {
+  margin: 0;
+  color: #838383;
+}
+
+.staff {
+  background-image: url("../images/staff_picks_background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: scroll;
+}
+
+.staff__title {
+  font-size: 36px;
+  line-height: 46px;
+  font-weight: 500;
+  margin-top: 200px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.staff__subtitle {
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  margin: 0;
+  color: #ffffff;
+}
+
+.staff__cards {
+  display: flex;
+  max-width: 760px;
+  margin-top: 68px;
+  padding-left: 0;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+  list-style-type: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card {
+  display: flex;
+  width: 360px;
+  height: 420px;
+  margin: 40px auto;
+  background-color: #ffffff;
+  box-sizing: border-box;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  flex-direction: column;
+}
+
+.card__content {
+  padding: 24px;
+}
+
+.card__footer {
+  margin-top: auto;
+}
+
+.card__title {
+}
+
+.card__text {
+}
